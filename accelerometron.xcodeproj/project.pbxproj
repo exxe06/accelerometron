@@ -12,6 +12,8 @@
 		2F1FE4E4218737E200312923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1FE4E2218737E200312923 /* Main.storyboard */; };
 		2F1FE4E6218737E300312923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1FE4E5218737E300312923 /* Assets.xcassets */; };
 		2F1FE4E9218737E300312923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1FE4E7218737E300312923 /* LaunchScreen.storyboard */; };
+		2F3CB408218740B900E8A5E5 /* ParalaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CB407218740B900E8A5E5 /* ParalaxCell.swift */; };
+		2F3CB40B2187432D00E8A5E5 /* img+names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3CB40A2187432D00E8A5E5 /* img+names.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2F1FE4E5218737E300312923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F1FE4E8218737E300312923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F1FE4EA218737E300312923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3CB407218740B900E8A5E5 /* ParalaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParalaxCell.swift; sourceTree = "<group>"; };
+		2F3CB40A2187432D00E8A5E5 /* img+names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "img+names.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		2F1FE4DD218737E200312923 /* accelerometron */ = {
 			isa = PBXGroup;
 			children = (
+				2F3CB4042187408800E8A5E5 /* New Group */,
 				2F1FE4DE218737E200312923 /* AppDelegate.swift */,
-				2F1FE4E0218737E200312923 /* ListTableVC.swift */,
 				2F1FE4E2218737E200312923 /* Main.storyboard */,
 				2F1FE4E5218737E300312923 /* Assets.xcassets */,
 				2F1FE4E7218737E300312923 /* LaunchScreen.storyboard */,
 				2F1FE4EA218737E300312923 /* Info.plist */,
 			);
 			path = accelerometron;
+			sourceTree = "<group>";
+		};
+		2F3CB4042187408800E8A5E5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2F3CB4092187431A00E8A5E5 /* Model */,
+				2F3CB4062187409800E8A5E5 /* View */,
+				2F3CB4052187409000E8A5E5 /* Controller */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2F3CB4052187409000E8A5E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F1FE4E0218737E200312923 /* ListTableVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F3CB4062187409800E8A5E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F3CB407218740B900E8A5E5 /* ParalaxCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F3CB4092187431A00E8A5E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F3CB40A2187432D00E8A5E5 /* img+names.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +175,8 @@
 			files = (
 				2F1FE4E1218737E200312923 /* ListTableVC.swift in Sources */,
 				2F1FE4DF218737E200312923 /* AppDelegate.swift in Sources */,
+				2F3CB40B2187432D00E8A5E5 /* img+names.swift in Sources */,
+				2F3CB408218740B900E8A5E5 /* ParalaxCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
